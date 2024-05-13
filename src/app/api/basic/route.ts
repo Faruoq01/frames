@@ -16,7 +16,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_SITE_URL}/park-4.png" />
     <meta property="fc:frame:button:1" content="View Tutorial" />
     <meta property="fc:frame:button:1:action" content="link" />
-    <meta property="fc:frame:button:1:target" content="https://github.com/ChangoMan/frames" />
+    <meta property="fc:frame:button:1:target" content="https://github.com/Faruoq01/frames" />
     <meta property="fc:frame:button:2" content="Restart" />
     <meta property="fc:frame:button:2:action" content="post" />
     <meta property="fc:frame:button:2:target" content="${process.env.NEXT_PUBLIC_SITE_URL}/api/basic?id=1" />
