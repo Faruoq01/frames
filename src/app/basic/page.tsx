@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div>
+    <div className='text-red-500'>
       <h1>Basic Frame</h1>
     </div>
   )
