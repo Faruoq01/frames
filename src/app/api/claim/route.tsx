@@ -45,7 +45,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       },
       buttons: [
         {
-          label: 'Clain blockC!',
+          label: 'View account',
         },
       ],
       // input: {
