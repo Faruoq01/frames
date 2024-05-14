@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `https://unsplash.com/photos/a-mountain-range-with-snow-q4yzfagxwFU`,
+    src: `${process.env.NEXT_PUBLIC_SITE_URL}/park-1.png`,
   },
   postUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/api/continue`,
 })
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Garden',
     description: 'Ready for a harvest?',
-    images: [`https://unsplash.com/photos/a-mountain-range-with-snow-q4yzfagxwFU`],
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/park-1.png`],
   },
   other: {
     ...frameMetadata,

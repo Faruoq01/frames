@@ -41,7 +41,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
   return new NextResponse(
     getFrameHtmlResponse({
       image: {
-        src: `https://unsplash.com/photos/empty-hallway-w_N-XCjiM0o`,
+        src: `${process.env.NEXT_PUBLIC_SITE_URL}/park-2.png`,
       },
       buttons: [
         {
