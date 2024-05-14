@@ -2,7 +2,8 @@ import { FrameRequest, getFrameHtmlResponse } from '@coinbase/onchainkit/frame'
 import { NextRequest, NextResponse } from 'next/server'
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
-  // const body: FrameRequest = await req.json()
+  const body: FrameRequest = await req.json();
+  console.log(body, "body");
 
   // const { untrustedData } = body
 
