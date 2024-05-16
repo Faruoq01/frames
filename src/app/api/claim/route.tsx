@@ -51,7 +51,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       // input: {
       //   text: "Enter amount"
       // },
-      postUrl: `${process.env.NEXT_PUBLIC_SITE_URL}/og/${searchParams}`,
+      postUrl: `https://github.com/Faruoq01/frames`,
     })
   )
 }
